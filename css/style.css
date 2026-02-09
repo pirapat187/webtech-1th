@@ -1,0 +1,63 @@
+body {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #374151;
+    background-color: #f0fdf4;
+}
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #166534;
+    font-size: 2rem;
+    
+}
+.price {
+    color: #008015;
+    font-weight: bold;
+}
+.bestseller {
+    background-color: #fef9c3; /* เหลืองอ่อน */
+    color: #854d0e;            /* น้ำตาลทอง */
+}
+.card {
+    background: white;
+    border: 1px solid #dcfce7;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+.card.featured {
+    border: 2px solid #22c55e;
+}
+
+/* Badge NEW — สีเขียวอ่อน */
+.new {
+    background-color: #dcfce7; /* เขียวอ่อน */
+    color: #166534;            /* เขียวเข้ม */
+}
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #15803d,         /* เขียวเข้ม */
+        #22c55e          /* เขียวสด */
+    );
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.site-header {
+    background-color: #166534;
+    color: white;
+    padding: 1rem 2rem;
+}
+#menu {
+    background-color: #f0fdf4;
+    padding: 3rem 2rem;
+}
+.site-footer {
+    background-color: #14532d;
+    color: rgba(255, 255, 255, 0.8);   /* ขาว 80% */
+    text-align: center;
+    padding: 2rem;
+}
